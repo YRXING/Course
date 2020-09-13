@@ -28,6 +28,7 @@
 		2173A4FD250A1CD100363CA8 /* part_one06.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = part_one06.h; sourceTree = "<group>"; };
 		2173A500250A207600363CA8 /* part_one05.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = part_one05.h; sourceTree = "<group>"; };
 		2173A501250A20EB00363CA8 /* part_two06.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = part_two06.h; sourceTree = "<group>"; };
+		2173A507250E339C00363CA8 /* part_three06.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = part_three06.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +73,7 @@
 			children = (
 				2173A4FD250A1CD100363CA8 /* part_one06.h */,
 				2173A501250A20EB00363CA8 /* part_two06.h */,
+				2173A507250E339C00363CA8 /* part_three06.h */,
 			);
 			path = Chapter06;
 			sourceTree = "<group>";
