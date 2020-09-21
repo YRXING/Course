@@ -36,7 +36,7 @@ void mtx_add(int a[][3],int b[][3],int row){
         for(int j=0;j<3;j++){
             a[i][j]+=b[i][j];
         }
-    
+
     //输出
     printf("mtx add:\n");
     print_mtx(a, row);
@@ -52,7 +52,6 @@ void mtx_sub(int a[][3],int b[][3],int row){
     printf("mtx sub:\n");
     print_mtx(a, row);
 }
-
 void mtx_multi(int a[][3],int b[][3],int row){
     int c[3][3]={};
     for(int i=0;i<row;i++)
