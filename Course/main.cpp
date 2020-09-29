@@ -1,16 +1,18 @@
 #include <stdio.h>
 #include <math.h>
-#include "part_four06.h"
-
-#define maxInt ((1<<30)-1)
-#define minInt (-(1<<30))
-
 
 using namespace std;
 
 
+//pi/4 = 1-1/3+1/5-1/7+...n
 int main()
 {
-    practice_six_six();
+    
+    return 0;
 }
+
+
+
+
+
 

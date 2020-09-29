@@ -23,6 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		215C38C1251E1864006E96E1 /* part_tow08.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = part_tow08.h; sourceTree = "<group>"; };
+		215C38C3251E24C7006E96E1 /* part_one09.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = part_one09.h; sourceTree = "<group>"; };
+		215C38C5251F7E70006E96E1 /* part_one11.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = part_one11.h; sourceTree = "<group>"; };
 		21657FD32500FCF1007F0955 /* Course */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Course; sourceTree = BUILT_PRODUCTS_DIR; };
 		21657FD62500FCF1007F0955 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2173A4FD250A1CD100363CA8 /* part_one06.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = part_one06.h; sourceTree = "<group>"; };
@@ -45,9 +48,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		215C38C2251E24AA006E96E1 /* Chapter09 */ = {
+			isa = PBXGroup;
+			children = (
+				215C38C3251E24C7006E96E1 /* part_one09.h */,
+			);
+			path = Chapter09;
+			sourceTree = "<group>";
+		};
+		215C38C4251F7E58006E96E1 /* Chapter11 */ = {
+			isa = PBXGroup;
+			children = (
+				215C38C5251F7E70006E96E1 /* part_one11.h */,
+			);
+			path = Chapter11;
+			sourceTree = "<group>";
+		};
 		21657FCA2500FCF1007F0955 = {
 			isa = PBXGroup;
 			children = (
+				215C38C4251F7E58006E96E1 /* Chapter11 */,
+				215C38C2251E24AA006E96E1 /* Chapter09 */,
 				21AE6900251884400039C1EF /* Chapter04 */,
 				21D2C52E251481AE00BBEAC8 /* Chapter08 */,
 				2173A4FE250A1F9E00363CA8 /* Chapter05 */,
@@ -104,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				21D2C5302514825F00BBEAC8 /* part_one08.h */,
+				215C38C1251E1864006E96E1 /* part_tow08.h */,
 			);
 			path = Chapter08;
 			sourceTree = "<group>";
