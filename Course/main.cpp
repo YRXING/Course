@@ -1,18 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #include <math.h>
 
-using namespace std;
 
-
-//pi/4 = 1-1/3+1/5-1/7+...n
-int main()
-{
-    
-    return 0;
+int hash(char *str){
+    for(int i=0;i<2;i++){
+        
+    }
 }
-
-
-
-
-
-

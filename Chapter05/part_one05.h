@@ -12,7 +12,7 @@ int sumN(int n){
 }
 //sumN(n) = n%10 + sumN(n/10)
 
-//3.digit(n,k)=digit(n/10,k-1)=   return 0
+//3.digit(n,k)=digit(n/10,k--)=   return 0
 int digit(int n,int k){
 //    while(n!=0){
 //        if(k==1) return n%10;
@@ -22,6 +22,7 @@ int digit(int n,int k){
 //    return 0;
 
     if(k==1) return n%10;
+    
     else return digit(n/10, --k);//前缀后缀区别
 
 }
@@ -49,3 +50,4 @@ double calr(double e,int i,double value,double s){
     }
     else return s;
 }
+

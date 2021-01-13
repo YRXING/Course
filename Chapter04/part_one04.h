@@ -82,3 +82,12 @@ void print_chart(){
         printf("\n");
     }
 }
+
+
+//海伦公式：sqrt(l(l-a)(l-b)(l-c)),其中 l=(a+b+c)/2
+double area(double a,double b,double c){
+    double l = (a+b+c)/2;
+    double s;
+    s= sqrt(l*(l-a)*(l-b)*(l-c));
+    return s;
+}
